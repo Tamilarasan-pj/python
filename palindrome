@@ -1,0 +1,22 @@
+ class palindrome:
+   ...:     def __init__(self):
+   ...:         name=input("enter the string")
+   ...:         str=""
+   ...:         index=-1
+   ...:         str
+   ...:         for i in name:
+   ...:             str+=name[index]
+   ...:             index-=1
+   ...:         if str==name:
+   ...:              print("given string is palindrome")
+   ...:         else:
+   ...:              print("given string is not a plaindrome")
+   ...:
+
+In [5]: p=palindrome()
+enter the stringamma
+given string is palindrome
+
+In [6]: p1=palindrome()
+enter the stringtamil
+given string is not a plaindrome
