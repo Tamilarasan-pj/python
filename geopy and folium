@@ -1,0 +1,13 @@
+using geopy to make a marker on map
+import matplotlib
+
+ import folium
+
+from geopy.geocoders import Nominatim
+
+map=folium.map(location=[13.0836939, 80.270186],zoom_start=22)
+
+folium.Marker([13.0836939, 80.270186],popup="CHENNAI").add_to(map)
+ <folium.map.Marker at 0x24be6f16d48>
+
+map.save("chennai.html")
