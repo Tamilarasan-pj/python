@@ -1,0 +1,12 @@
+ To locate the adderss or location using lat and long in geopy.
+import geopy
+
+In [2]: import matplotlib
+
+In [3]: import folium
+
+In [4]: from geopy.geocoders import Nominatim
+geolocator=Nominatim(user_agent="chennai")
+
+In [7]: geolocator.geocode("chennai")
+Out[7]: Location(Chennai, Chennai District, Tamil Nadu, 600001, India, (13.0836939, 80.270186, 0.0))
